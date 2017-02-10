@@ -1,0 +1,120 @@
+    /* Remove the navbar's default margin-bottom and rounded borders */
+p, h1, ul, h3, h2, h5, blockquote, table,ol{
+  font-family: "Century Gothic", CenturyGothic;
+}
+
+ body {
+
+    background-repeat: no-repeat;
+    background-size:     cover;                      /* <------ */
+    background-position: center center;
+	background-color: white;
+}
+#background{
+	background-color: white;
+
+}
+#content{
+  background-color:white ;
+}
+
+
+
+#scroll {
+    background-color: white ;
+    width: 120%;
+    height: 400px;
+    overflow: scroll;
+background-repeat: no-repeat;
+background-attachment: fixed;
+    background-position: center;
+
+}
+.mySlides {display:none;}
+
+
+/*.center-container{
+  background-color: grey;
+}*/
+
+ .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+	  text-align: right;
+	  background-color: white;
+
+    }
+
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {
+height: 450px;
+	}
+
+    /* Set gray background color and 100% height */
+.sidenav {
+      padding-top: 20px;
+      background-color: #D6D5D5;
+      height: 120%;
+
+    }
+
+    /* Set black background color, white text and some padding */
+footer {
+      background-color: white;
+      color: white;
+      padding: 15px;
+    }
+div.logo
+{
+		Position:absolute;
+		left: 100px;
+		top: 150px;
+
+
+}
+div.Home {
+	text-shadow: 0 0 3px #0000ff;
+	color: white;
+	position: absolute;
+	left:100px;
+	Top:25px;
+	Padding:25px;
+	background-color: #e60000;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: grey;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  table, td, th {
+      border: 1px solid red;
+
+
+  }
+
+  table {
+
+      border-collapse: collapse;
+      width: 100%;
+  }
+
+  th {
+      height: 25px;
+        background-color: red;
+        color: white;
+
+  }
