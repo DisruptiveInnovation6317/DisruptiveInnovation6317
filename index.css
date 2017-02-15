@@ -30,12 +30,7 @@ background-attachment: fixed;
     background-position: center;
 
 }
-.mySlides {display:none;}
 
-
-/*.center-container{
-  background-color: grey;
-}*/
 
  .navbar {
       margin-bottom: 0;
@@ -64,6 +59,10 @@ footer {
       color: white;
       padding: 15px;
     }
+#pad{
+  width: 150;
+}
+
 div.logo
 {
 		Position:absolute;
