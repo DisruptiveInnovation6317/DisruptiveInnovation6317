@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+  <link rel="stylesheet" href="/lib/w3.css">
   <link href="index.css" rel="stylesheet" type="text/css">
 
 </head>
@@ -47,6 +48,37 @@
 
 
 <!-- <img src = "images/pic.gif" width = 400px> -->
+<div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="images/lrank.jpg" style="width:100%">
+  <img class="mySlides" src="images/lickey.jpg" style="width:100%">
+  <img class="mySlides" src="images/leronica.jpg" style="width:100%">
+  <img class="mySlides" src="images/lou.jpg" style="width:100%">
+  <img class="mySlides" src="images/mentor.jpg" style="width:100%">
+  <img class="mySlides" src="images/loss.jpg" style="width:100%">
+  <img class="mySlides" src="images/lill.jpg" style="width:100%">
+  <img class="mySlides" src="images/ross.jpg" style="width:100%">
+  <img class="mySlides" src="images/rrosius.jpg" style="width:100%">
+  <img class="mySlides" src="images/rhase.jpg" style="width:100%">
+  <img class="mySlides" src="images/lan.jpg" style="width:100%">
+
+
+</div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
 </div>
 <div class="col-md-4"><object width="450" height="500" data="newsletter.pdf"></object>
 
