@@ -31,7 +31,12 @@ background-attachment: fixed;
 
 }
 
+div.scroll {
 
+    width: 400px;
+    height: 300px;
+    overflow: scroll;
+}
  .navbar {
       margin-bottom: 0;
       border-radius: 0;
